@@ -1,0 +1,29 @@
+# Файлы сборки Qt
+build/
+debug/
+release/
+*.user
+*.user.*
+
+# Объектные файлы и Makefile
+*.o
+*.obj
+Makefile
+Makefile.*
+
+# Сгенерированные файлы Qt (MOC, UIC, RCC)
+moc_*
+qrc_*
+ui_*
+*.moc
+
+# Исполняемые файлы и библиотеки
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+
+# Системный мусор (macOS и Windows)
+.DS_Store
+Thumbs.db
